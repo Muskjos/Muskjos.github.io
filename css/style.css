@@ -1,0 +1,125 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	/*color:rgb(110,171,41)*/;
+	font-size: 22px;
+	/*margin: 0;*/
+	line-height: 1.2;
+	font-weight: bold;
+
+}
+
+
+h1, h2, h3 {
+	color: rgb(54,145,29);
+	font-family: 'Heebo', sans-serif;
+	font-size: 2.5em;
+}
+
+a{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.container {
+	/*width: 100%;
+	margin: 60px auto;*/
+}
+
+.banner {
+	background-image: url('../Images/background.jpg');
+	background-size: 100% 100%;
+	max-width: 100%;
+	height: 400px;
+	/*background-position: center*/;
+	padding: 150px 0;
+	text-align: center;
+	}
+
+
+/*.banner h1 {
+	color: orange;
+	font-size: 2.5em;
+	margin: 0;
+}*/
+
+h2{
+	color: black;
+	font-size: 2.5em;
+	/*text-align: center;*/
+}
+
+/*h3{
+	text-align: center;*/
+}
+
+p {
+	color: black;
+}
+
+.banner p {
+	color: orange;
+	font-size: 2em;
+	opacity: 0.7;
+}
+
+.btn-orange {
+	background-color: rgb(214, 131, 21);
+	color: white;
+	padding: 17px 48px;
+	border-radius: 5px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.btn-orange:hover {
+    color: rgb(216, 228, 230);
+    background-color: rgb(207, 26, 6);
+}
+
+.card-white img{
+	background-color: white;
+	box-shadow: 0 0 16px rgb(0,0,0);
+	border-radius: 4px;
+	padding: 8px;
+	margin: 4px;
+	flex-grow: 1;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+}
+
+.card-white h3{
+	margin-bottom: 0;
+}
+
+	.footer {
+		background-color: rgb(77, 194, 25);
+		color: white;
+		padding: 15px 0px;
+		/*margin: 0;*/
+		height: 100px;
+		width: 100%;
+		text-align: right;
+}
+
+#border{
+	border: 1px solid black;
+}
+
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0px;
+}
+
+.cards.flex {
+	display: flex;
+}
+
+
